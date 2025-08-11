@@ -1,0 +1,57 @@
+=== INSURANCE DATA ANALYSIS REPORT ===
+Generated on: 2025-07-10
+
+=== DATA CLEANING SUMMARY ===
+Initial records: 1338
+Duplicate records removed: 1
+Records with missing values removed: 0
+Records with invalid ranges removed: 0
+Final cleaned records: 1337
+Data retention rate: 99.9%
+
+=== DESCRIPTIVE STATISTICS ===
+Numerical features:
+               age          bmi     children       charges
+count  1337.000000  1337.000000  1337.000000   1337.000000
+mean     39.222139    30.663452     1.095737  13279.121487
+std      14.044333     6.100468     1.205571  12110.359656
+min      18.000000    15.960000     0.000000   1121.873900
+25%      27.000000    26.290000     0.000000   4746.344000
+50%      39.000000    30.400000     1.000000   9386.161300
+75%      51.000000    34.700000     2.000000  16657.717450
+max      64.000000    53.130000     5.000000  63770.428010
+
+Categorical features:
+         sex smoker     region
+count   1337   1337       1337
+unique     2      2          4
+top     male     no  southeast
+freq     675   1063        364
+
+=== KEY INSIGHTS ===
+Age Distribution:
+- Average age: 39.2 years
+- Age range: 18 to 64 years
+- 25% of customers are under 27 years
+- 75% of customers are under 51 years
+
+Insurance Charges:
+- Average charge: $13,279.12
+- Minimum charge: $1,121.87
+- Maximum charge: $63,770.43
+- Standard deviation: $12,110.36
+
+Smoker Analysis:
+- Smokers: 274 (20.5%)
+- Non-smokers: 1063 (79.5%)
+- Average charges for smokers: $32,050.23
+- Average charges for non-smokers: $8,440.66
+- Smokers pay 3.8x more on average
+
+Regional Analysis:
+- southeast: 364 customers (27.2%), avg charges $14,735.41
+- southwest: 325 customers (24.3%), avg charges $12,346.94
+- northeast: 324 customers (24.2%), avg charges $13,406.38
+- northwest: 324 customers (24.2%), avg charges $12,450.84
+
+=== ANALYSIS COMPLETED ===
